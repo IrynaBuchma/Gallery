@@ -1,0 +1,16 @@
+.gallery {
+    position: absolute;
+    background-color: transparent;
+    width: 600px;
+    height: 300px;
+    top: 200px;
+    right: 300px;
+    z-index: 100;
+    overflow: hidden;
+    border-radius: 8px;
+    outline: 2px solid teal;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
