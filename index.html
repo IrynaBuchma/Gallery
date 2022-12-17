@@ -12,15 +12,15 @@
 <body>
     <header>Logo</header>
     <main>
-        <div class="wrapper">
+            <!-- <div class="wrapper">
             <section class="production"></section>
-            <section class="gallery">
+            <section class="gallery"> -->
                 <!-- Slider main container -->
-                <div class="swiper">
+                <!-- <div class="swiper"> -->
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+                <!-- <div class="swiper-wrapper"> -->
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <img class="gallery__card"
                     srcset="
                     ./images/main-ice_280.jpg 280w,
@@ -44,24 +44,71 @@
                     src="./images/changed_1013.jpg" 
                     alt="ice main image">
                 </div>
-                ...
-                </div>
+                </div> -->
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-pagination"></div> -->
             
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
             
                 <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+<!--                 <div class="swiper-scrollbar"></div>
                 </div>
             </section>
             <section class="customer-reviews"></section>
-        </div>
+            <section class="gallery">
+                <div class="gallery__container">
+                    <h2 class="gallery__title visually-hidden">Gallery</h2>
+                    <img class="gallery__card"
+                    srcset="
+                    ../images/gallery/main-ice/mobile/main-ice_280.jpg 280w,
+                    ../images/gallery/main-ice/mobile/main-ice_560.jpg 560w,
+                    ../images/gallery/main-ice/tablet/main-ice_704.jpg 704w,
+                    ../images/gallery/main-ice/desktop/gallery-main_1013.jpg 1013w,
+                    ../images/gallery/main-ice/tablet/main-ice_1408.jpg 1408w,
+                    ../images/gallery/main-ice/desktop/gallery-main_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px, (min-width: 768px) 704px, (min-width: 480px) 280px, 100vw"
+                    src="../images/gallery/main-ice/mobile/main-ice_280.jpg" 
+                    alt="ice main image">
+                </div> 
+            </section> -->
+            <div class="animation__container">
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/gallery-main_1013.jpg 1013w,
+                    ./images/gallery-main_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/gallery-main_1013.jpg" 
+                    alt="ice card 1">
+                </div>
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/ice-gallery-changed_1013.jpg 1013w,
+                    ./images/ice-gallery-changed_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/ice-gallery-changed_1013.jpg" 
+                    alt="ice card 2">
+                </div>
+                <div class="animation__slide">
+                    <img class="animation__card"
+                    srcset="
+                    ./images/changed_1013.jpg 1013w,
+                    ./images/changed_2026.jpg 2026w
+                    "
+                    sizes="(min-width: 1200px) 1013px"
+                    src="./images/changed_1013.jpg" 
+                    alt="ice card 3">
+                </div>
+            </div>
     </main>
 <footer></footer>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -84,6 +131,6 @@
     el: '.swiper-scrollbar',
   },
 });
-</script>
+</script> -->
 </body>
 </html>
